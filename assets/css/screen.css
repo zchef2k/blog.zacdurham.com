@@ -45,6 +45,7 @@ pre {
 }
 
 .main-content {
+    margin-top: 25px;
     min-height: 300px;
 }
 
@@ -304,13 +305,18 @@ span.post-read-more a:hover {
     margin-right: 5px;
 }
 
-.mainheading h1.sitetitle {
-    font-family: Righteous;
+.sitetitle {
+    font-family: Amiri;
 }
 
+.leada {
+    font-size: 300px;
+    
+}
 .mainheading h1.posttitle {
     font-weight: 700;
     margin-bottom: 1rem;
+    font-family: Amiri;
 }
 
 .footer {
@@ -330,7 +336,7 @@ span.post-read-more a:hover {
 }
 
 .article-post {
-    font-family: Merriweather;
+    font-family: Roboto;
     font-size: 1.1rem;
     line-height: 1.84;
     color: rgba(0, 0, 0, .8);
@@ -685,7 +691,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    /**font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;**/
+    font-family: Amiri;
 }
 
 .article-post .h1,
@@ -720,7 +727,7 @@ h6 {
 }
 
 img {
-    max-width: 100%;
+    //**max-width: 100%;**/
 }
 
 .bottompagination span.navigation {
@@ -898,4 +905,15 @@ iframe {
 .lazyimg[data-srcset] {
     opacity: 0;
     transition: opacity .25s;
+}
+
+/** Overrides from other stylesheets **/
+
+.navbar {
+    padding-left: 0px;
+    padding-top: 15px; 
+}
+
+.col-lg-2 {
+    max-width: 10.666667%;
 }
