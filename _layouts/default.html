@@ -55,11 +55,6 @@
 
     <div class="collapse navbar-collapse" id="navbarMediumish">
 
-        <h1 class="sitetitle">{{ site.name }}</h1>
-        <p class="lead">
-            {{ site.description }}
-        </p>
-
         <!-- Begin Menu -->
 
             <ul class="navbar-nav ml-auto">
@@ -89,7 +84,10 @@
 
 <!-- Site Title
 ================================================== -->
-
+<h1 class="sitetitle"><a href="{{ site.url }}">{{ site.name }}</a></h1>
+<p class="lead">
+    {{ site.description }}
+</p>
 
 <!-- Content
 ================================================== -->
